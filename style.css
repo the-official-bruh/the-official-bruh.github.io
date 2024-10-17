@@ -6,21 +6,55 @@ A:hover
 {color: #ff0000; text-decoration: none; font-family: Tahoma, Verdana; font-size: 11px;}
 p, tr, td, ul, li
 {color: #000000; font-family: Tahoma, Verdana; font-size: 11px;}
+td.td2
+{color: #000000; font-family: Tahoma, Verdana; font-size: 11px; background-color: #ffffff;}
 sup
 {color: #000000; font-family: Tahoma, Verdana; font-size: 9px;}
+
+div.content { max-width: 900px;
+              align-self: "center"; 
+              margin-left: auto;
+               margin-right: auto}
+
+table.projects{
+  border: 1px solid black;
+}
+
+.bgimg{
+  background-image: url('./assets/car_bg.png');
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;  
+}
 
 .container {
     position: relative;
     text-align: center;
     color: white;
 }
+
+.distimages {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .centered {
     position: absolute;
     top: 50;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.box{
+.titlebanner{
     width: max;
     height: 100px;
     background: url("./assets/banner.jpg") no-repeat;
@@ -28,6 +62,23 @@ sup
     border: 5px solid #333;
     margin: 0px;
 }
+
+.carsbanner{
+  width: auto;
+  height: 100;
+  background-size: cover;
+  border: 5px solid #333;
+  margin: 0px;
+}
+
+.featured{
+  width: auto;
+  height: 100;
+  background-size: cover;
+  border: 0px solid #333;
+  margin: 10px;
+}
+
 .zoom {
   transition: transform .2s; /* Animation */
   margin: 0 auto;
@@ -42,10 +93,6 @@ sup
   transform: scale(2) translate(50px);
 }
 
-.table{
-  border: "1";
-}
-
 .zoom2:hover {
   transform: scale(1.5);
 }
@@ -53,7 +100,7 @@ sup
 .header1, h1
 {color: white; background: grey; font-weight: bold; font-family: Tahoma, Verdana; font-size: 16px; margin: 0px; padding: 2px;}
 .header2, h2
-{color: #0000000; background: #DBEAF5; font-weight: bold; font-family: Tahoma, Verdana; font-size: 12px;}
+{color: "#0000000"; background: #DBEAF5; font-weight: bold; font-family: Tahoma, Verdana; font-size: 12px;}
 .header3, h3
 {color: white; background: #c0392a; font-weight: bold; font-family: Tahoma, Verdana; font-size: 12px; margin: 00px; padding: 2px;}
 .header3, h4
@@ -62,6 +109,8 @@ sup
 {color: white; background: #7ac02a; font-weight: bold; font-family: Tahoma, Verdana; font-size: 12px; margin: 00px; padding: 2px;}
 .header3, h6
 {color: white; background: #000000; font-weight: bold; font-family: Tahoma, Verdana; font-size: 12px; margin: 00px; padding: 2px;}
+.header3, h7
+{color: white; background: #ff42ff; font-weight: bold; font-family: Tahoma, Verdana; font-size: 12px; margin: 00px; padding: 2px;}
 .intd
 {color: #000000; font-family: Tahoma, Verdana; font-size: 11px; padding-left: 15px; padding-right: 15px;}
 .ctrl
