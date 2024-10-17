@@ -23,7 +23,7 @@ sup
 .box{
     width: max;
     height: 100px;
-    background: url("./banner.jpg") no-repeat;
+    background: url("./assets/banner.jpg") no-repeat;
     background-size: cover;
     border: 5px solid #333;
     margin: 0px;
@@ -40,6 +40,10 @@ sup
 
 .zoom:hover {
   transform: scale(2) translate(50px);
+}
+
+.table{
+  border: "1";
 }
 
 .zoom2:hover {
