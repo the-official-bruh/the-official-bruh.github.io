@@ -10,18 +10,20 @@ td.td2
 {color: #000000; font-family: Tahoma, Verdana; font-size: 11px; background-color: #ffffff;}
 sup
 {color: #000000; font-family: Tahoma, Verdana; font-size: 9px;}
+desc
+{color: #000000; font-family: Tahoma, Verdana; font-size: 15px;}
 
 div.content { max-width: 900px;
               align-self: "center"; 
               margin-left: auto;
-               margin-right: auto}
+              margin-right: auto;
+              }
 
 table.projects{
   border: 1px solid black;
 }
 
 .bgimg{
-  background-image: url('./assets/car_bg.png');
   background-size:     cover;
   background-repeat:   no-repeat;
   background-position: center center;  
@@ -30,7 +32,7 @@ table.projects{
 .container {
     position: relative;
     text-align: center;
-    color: white;
+    color: white; 
 }
 
 .distimages {
@@ -48,12 +50,27 @@ table.projects{
   transform: translateY(-50%);
 }
 
+.stats {
+  float: right;
+  width: 60%;
+  align-self: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .centered {
     position: absolute;
     top: 50;
     left: 50%;
     transform: translate(-50%, -50%);
+
 }
+
 .titlebanner{
     width: max;
     height: 100px;
@@ -61,6 +78,7 @@ table.projects{
     background-size: cover;
     border: 5px solid #333;
     margin: 0px;
+    overflow: hidden;
 }
 
 .carsbanner{
@@ -69,6 +87,8 @@ table.projects{
   background-size: cover;
   border: 5px solid #333;
   margin: 0px;
+  box-sizing: content-box;
+  overflow: hidden;
 }
 
 .featured{
@@ -90,7 +110,7 @@ table.projects{
 }
 
 .zoom:hover {
-  transform: scale(2) translate(50px);
+  transform: scale(2) translate(20px);
 }
 
 .zoom2:hover {
@@ -111,8 +131,10 @@ table.projects{
 {color: white; background: #000000; font-weight: bold; font-family: Tahoma, Verdana; font-size: 12px; margin: 00px; padding: 2px;}
 .header3, h7
 {color: white; background: #ff42ff; font-weight: bold; font-family: Tahoma, Verdana; font-size: 12px; margin: 00px; padding: 2px;}
-.intd
-{color: #000000; font-family: Tahoma, Verdana; font-size: 11px; padding-left: 15px; padding-right: 15px;}
+.header3, h8
+{color: white; background: #4265ff; font-weight: bold; font-family: Tahoma, Verdana; font-size: 22px; margin: 00px; padding: 2px;}
+.header3, h8
+{color: white; background: #026327; font-weight: bold; font-family: Brush Script MT; font-size: 80px; margin: 00px; padding-left: 30px; padding-right: 30px;border-radius: 15px;}
 .ctrl
 {font-family: Tahoma, Verdana, sans-serif; font-size: 12px; width: 100%;}
 .fbquote
@@ -123,3 +145,83 @@ hr
 {color: #DBEAF5; height : 1px;}
 pre
 { background: #dddddd; border: 1px solid black; color: black; padding-top: 1em; white-space: pre; padding: 10px;}
+
+.pbargrid {
+    display: flex;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    border-top: 0;
+    align-content: right;
+}
+
+#myProgress1 {
+  width: 40px;
+  height: 150px;
+  background-color: #04AA6D;
+}
+
+#myProgress2 {
+  width: 40px;
+  height: 150px;
+  background-color: #aa5404;
+}
+
+#myProgress3 {
+  width: 40px;
+  height: 150px;
+  background-color: #6804aa;
+}
+
+#myProgress4 {
+  width: 40px;
+  height: 150px;
+  background-color: #edfc66;
+}
+
+#myProgress5 {
+  width: 40px;
+  height: 150px;
+  background-color: #044caa;
+}
+
+#myProgress6 {
+  width: 40px;
+  height: 150px;
+  background-color: #aa0404;
+}
+
+#myBar1 {
+  width: 40px;
+  height: 150px;
+  background-color: #ddd;
+}
+
+#myBar2 {
+  width: 40px;
+  height: 150px;
+  background-color: #ddd;
+}
+
+#myBar3 {
+  width: 40px;
+  height: 150px;
+  background-color: #ddd;
+}
+
+#myBar4 {
+  width: 40px;
+  height: 150px;
+  background-color: #ddd;
+}
+
+#myBar5 {
+  width: 40px;
+  height: 150px;
+  background-color: #ddd;
+}
+
+#myBar6 {
+  width: 40px;
+  height: 150px;
+  background-color: #ddd;
+}
