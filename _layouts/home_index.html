@@ -1,0 +1,188 @@
+<html lang="en">
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+
+<link type="text/css" rel="stylesheet" href="./style.css">
+<title>Shane's Avenue</title>
+
+<body class="bgimg" background="/assets/powerlines.jpg">
+</body>
+
+<div class="content">
+
+<body>
+  <div class="titlebanner">
+    <div class="container">
+      <div class="centered">
+        <img height=100 src="/assets/title.png";>
+        </img>
+      </div>
+    </div>
+  </div>
+</body>
+
+<body>
+
+  <!------------------------------ ABOUT ME ------------------------------>
+  <h1>About me</h1>
+
+  <table>
+    <tr>
+      <td>
+        {{page.content}}
+      </td>
+
+      <td>
+        <div class="zoom3">
+          <table>
+            <tr>
+              <h1>
+                Cool Image
+              </h1>
+            </tr>
+
+            <tr>
+              <img height = 200px src="{{ site.baseurl }}/assets/{{ page.iott }}" alt="image">
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <!--
+    <p><a href="./aboutme.html">Who's this guy?</a>
+  -->
+
+  <h1>Navigation</h1>
+  <table class="projects" width="100%">
+    <!--
+    <tr>
+      <th colspan=100%>
+        <h3>Backlog</h3>
+      </th>
+    </tr>
+
+    <tr>
+      <td colspan=100%>None Yet</td>
+    </tr>
+
+    <tr>
+      <th colspan=100%>
+        <h4>In Progress</h4>
+      </th>
+    </tr>
+
+    <tr>
+      <td colspan=100%>None</td>
+    </tr>
+
+    <tr>
+      <th colspan=100%>
+        <h5>Done</h5>
+      </th>
+    </tr>
+
+    <tr>
+      <td colspan=100%>None</td>
+    </tr>
+
+    <tr>
+      <th colspan=100%>
+        <h6>Cancelled</h6>
+      </th>
+    </tr>
+    -->
+
+    <tr>
+      <td><a href="/electronics"><img class="zoom" src=/assets/ezetc.png width=100></a></td>
+      <td class="center-text"><section>Electronics</section></td>
+      <td>
+        Active projects, archived ideas, designs, applications, 
+        notes, and anything else I've been working on.
+      </td>
+      <!--
+      <td>v0.3</td>
+      <td><a href="http://www.google.com"><img class="zoom2" src=/assets/dl.png></img></a></td>
+      -->
+    </tr>
+
+    <tr>
+      <td><a href="/store"><img class="zoom" src=/assets/store.png width=100></a></td>
+      <td class="center-text"><section>Store</section></td>
+      <td>
+        If and when I have things to sell, I'll put them here.
+      </td>
+      <!--
+      <td>v0.3</td>
+      <td><a href="http://www.google.com"><img class="zoom2" src=/assets/dl.png></img></a></td>
+      -->
+    </tr>
+
+    <tr>
+      <td><a href="/cars"><img class="zoom" src=/assets/scoupin.png width=100></a></td>
+      <td class="center-text"><section>Cars</section></td>
+      <td>
+        All the cars I'm driving, previously owned, or are otherwise working on. Maintenence history, 
+        hacks, mods, repair guides, and more.
+      </td>
+      <!--
+      <td>v0.3</td>
+      <td><a href="http://www.google.com"><img class="zoom2" src=/assets/dl.png></img></a></td>
+      -->
+    </tr>
+
+    <tr>
+      <td><a href="/projects"><img class="zoom" src=/assets/ic_open_l.png width=100></a></td>
+      <td class="center-text"><section>Projects</section></td>
+      <td>
+        REPLACE THIS TEXT!!
+      </td>
+      <!--
+      <td>v0.3</td>
+      <td><a href="http://www.google.com"><img class="zoom2" src=/assets/dl.png></img></a></td>
+      -->
+    </tr>
+
+    <tr>
+      <td><a href="/posts"><img class="zoom" src=/assets/ic_read_l.png width=100></a></td>
+      <td class="center-text"><section>Posts</section></td>
+      <td>
+        REPLACE THIS TEXT!!
+      </td>
+      <!--
+      <td>v0.3</td>
+      <td><a href="http://www.google.com"><img class="zoom2" src=/assets/dl.png></img></a></td>
+      -->
+    </tr>
+
+    <tr>
+      <td><a href="/pictures"><img class="zoom" src=/assets/intercoastal.png width=100></a></td>
+      <td class="center-text"><section>Pictures</section></td>
+      <td>
+        REPLACE THIS TEXT!!
+      </td>
+      <!--
+      <td>v0.3</td>
+      <td><a href="http://www.google.com"><img class="zoom2" src=/assets/dl.png></img></a></td>
+      -->
+    </tr>
+
+  </table>
+</body>
+</div>
+
+<div class="content">
+  <table>
+    <tr>
+      <div class="badgegrid">
+        {% for image in site.static_files %}
+            {% if image.path contains 'buttons' %}
+                <img class="zoom2" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+            {% endif %}
+        {% endfor %}
+      </div>
+    </tr>
+  </table>
+</div>
+
+</html>

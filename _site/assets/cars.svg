@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="9.3017578mm"
+   height="2.1704102mm"
+   viewBox="0 0 9.3017578 2.1704102"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="cars.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="39.537778"
+     inkscape:cx="17.578125"
+     inkscape:cy="4.0973471"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1592"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="text113" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-40.761666,-57.087653)">
+    <g
+       aria-label="CARS"
+       id="text113"
+       style="font-size:3.175px;stroke-width:0.204">
+      <path
+         d="m 40.761669,57.397713 q 0,-0.310059 0.310059,-0.310059 h 1.240234 q 0.310059,0 0.310059,0.310059 v 0.310058 h -0.620117 v -0.310058 h -0.620118 v 1.550293 h 0.620118 v -0.310059 h 0.620117 v 0.310059 q 0,0.310058 -0.310059,0.310058 h -1.240234 q -0.310059,0 -0.310059,-0.310058 z"
+         style="font-family:'Commodore 64 Rounded';-inkscape-font-specification:'Commodore 64 Rounded'"
+         id="path1582" />
+      <path
+         d="m 43.242138,57.707771 0.310058,-0.310058 0.310059,-0.310059 h 0.620117 l 0.310059,0.310059 0.310058,0.310058 v 1.550293 h -0.620117 v -0.930175 h -0.620117 v 0.930175 h -0.620117 z m 0.620117,0 v 0.310059 h 0.620117 v -0.310059 z"
+         style="font-family:'Commodore 64 Rounded';-inkscape-font-specification:'Commodore 64 Rounded'"
+         id="path1584" />
+      <path
+         d="M 45.722607,57.087654 H 47.2729 q 0.310058,0 0.310058,0.310059 v 0.620117 q 0,0.310059 -0.310058,0.310059 h -0.310059 l 0.620117,0.620117 v 0.310058 h -0.620117 v -0.310058 l -0.310059,-0.310059 h -0.310058 v 0.620117 h -0.620117 z m 0.620117,0.310059 v 0.620117 h 0.620117 v -0.620117 z"
+         style="font-family:'Commodore 64 Rounded';-inkscape-font-specification:'Commodore 64 Rounded'"
+         id="path1586" />
+      <path
+         d="m 48.203075,58.637947 h 0.620118 v 0.310059 h 0.620117 v -0.620117 h -0.930176 q -0.310059,0 -0.310059,-0.310059 v -0.620117 q 0,-0.310059 0.310059,-0.310059 h 1.240234 q 0.310059,0 0.310059,0.310059 v 0.310058 H 49.44331 v -0.310058 h -0.620117 v 0.620117 h 0.930175 q 0.310059,0 0.310059,0.310059 v 0.620117 q 0,0.310058 -0.310059,0.310058 h -1.240234 q -0.310059,0 -0.310059,-0.310058 z"
+         style="font-family:'Commodore 64 Rounded';-inkscape-font-specification:'Commodore 64 Rounded'"
+         id="path1588" />
+    </g>
+  </g>
+</svg>
