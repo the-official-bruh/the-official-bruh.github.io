@@ -42,7 +42,7 @@ table.projects{
 }
 
 .bgimg{
-  background-size:     auto;
+  background-size:     cover;
   background-repeat:   no-repeat;
   background-position: center center;  
 }
